@@ -32,5 +32,8 @@ public class Time {
         this.minute = (total % 3600) / 60;
         this.second = total % 60;
     }
-
+    @Override
+    public String toString(){
+        return this.toUniversal();
+    }
 }

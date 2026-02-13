@@ -3,18 +3,22 @@ package p2;
 
 public class Student {
     private String name;
-    private int age;
-
-    public Student(String name, int age) {
+    private int yearOfStudy, id;
+    private static int count;
+    public Student(String name, int yearOfStudy) {
         this.name = name;
-        this.age = age;
+        this.yearOfStudy = yearOfStudy;
+        count++;
+        this.id = count;
+    }
+    public int getId() {
+        return this.id;
+    }
+    public String getName(){
+        return this.name;
+    }
+    public void increment(){
+        this.yearOfStudy++;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
 }
