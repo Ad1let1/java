@@ -1,4 +1,4 @@
-package lab1;
+package lab1.pr4;
 
 import p2.Student;
 import java.util.Scanner;

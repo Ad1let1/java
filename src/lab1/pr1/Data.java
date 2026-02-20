@@ -1,11 +1,11 @@
-package lab1;
+package lab1.pr1;
 
 public class Data {
     private double sum, mx;
     private int cnt;
     public Data(){
-        this.sum = 0;
-        this.cnt = 0;
+//        this.sum = 0;
+//        this.cnt = 0;
         this.mx = -1e9;
     }
     public void add(int x){

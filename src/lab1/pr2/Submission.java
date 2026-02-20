@@ -1,6 +1,6 @@
-package lab1;
+package lab1.pr2;
 
-enum verdictFull{
+enum verdictFull{ // CamelCase
     ACCEPTED, WRONG_ANSWER, TIME_LIMIT_EXCEEDED, RUNTIME_ERROR, COMPILATION_ERROR
 }
 enum verdictShort{
@@ -24,6 +24,10 @@ public class Submission {
     }
     public Submission(String code){
         this(code, "CPP");
+    }
+    public Submission(String lang, verdictShort v){
+        this.lang = lang;
+        this.v = v;
     }
     public void grade(verdictShort v){
         this.v = v;

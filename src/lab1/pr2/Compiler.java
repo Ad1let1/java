@@ -1,4 +1,6 @@
-package lab1;
+package lab1.pr2;
+
+import lab1.verdictShort;
 
 public class Compiler {
     public static void main(String[] args) {

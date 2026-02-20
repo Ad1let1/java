@@ -1,10 +1,11 @@
-package lab1;
+package lab1.pr4;
 import p2.Student;
 import java.util.ArrayList;
 public class GradeBook {
     private Course course;
     private ArrayList<Student> students;
     private ArrayList<Integer> grades;
+
     public GradeBook(Course course) {
         this.course = course;
         this.students = new ArrayList<>();

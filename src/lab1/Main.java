@@ -23,18 +23,7 @@ public class Main {
 
         /* ------------------------*/
         // 5:
-        DragonLaunch dragon = new DragonLaunch();
-        ArrayList<Person> people = new ArrayList<>(Arrays.asList(
-                new Person("Adilet", Gender.boy),
-                new Person("Aizhan", Gender.boy),
-                new Person("Aibek", Gender.boy),
-                new Person("Ainura", Gender.girl)
-            )
-        );
-        for(Person p : people){
-                dragon.kidnap(p);
-        }
-        System.out.println(dragon.willDragonEatOrNot());
+
 
 
     }

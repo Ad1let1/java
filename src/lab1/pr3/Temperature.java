@@ -1,4 +1,4 @@
-package lab1;
+package lab1.pr3;
 
 public class Temperature {
     private double temp;
@@ -48,5 +48,9 @@ public class Temperature {
         this.scale = scale;
     }
 
+    @Override
+    public String toString(){
+        return this.temp  + " " + this.scale;
+    }
 
 }

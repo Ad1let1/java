@@ -1,4 +1,6 @@
-package lab1;
+package lab1.pr5;
+
+import lab1.Gender;
 
 import java.util.Vector;
 
